@@ -34,7 +34,7 @@ export default {
             <img src="../../assets/imgs/wedding-bg.jpg" alt="">
             <img src="../../assets/imgs/wedding-hover-bg.jpg" alt="" class="d-none">
 
-        </div>
+          </div>
 
         </div>
       </div>
@@ -72,11 +72,11 @@ h2 {
 }
 
 .box {
-  width: 40vw;
+  width: 45vw;
   margin: auto;
 
   img {
-    width: 100%
+    width: 100%;
   }
 }
 </style>
