@@ -4,10 +4,10 @@ import BakeryFooter from './components/footer/BakeryFooter.vue';
 import BakeryHeaderVue from './components/header/BakeryHeader.vue'
 import BakeryBlocks from './components/main/BakeryBlocks.vue';
 import BakeryForYou from './components/main/BakeryForYou.vue';
-import BakeryOurBakeries from './components/main/BakeryOurBakeries.vue';
+import BakeryOurBakeries from './components/footer/BakeryOurBakeries.vue';
 import BakeryProducts from './components/main/BakeryProducts.vue';
 import BakerySpecialMoments from './components/main/BakerySpecialMoments.vue';
-import BakeryStayTouch from './components/main/BakeryStayTouch.vue';
+import BakeryStayTouch from './components/footer/BakeryStayTouch.vue';
 
 export default {
   name: 'AppVue',
@@ -27,9 +27,9 @@ export default {
 </script>
 
 <template>
-  <header>
+
     <BakeryHeaderVue />
-  </header>
+
   <main>
     <BakeryProducts />
     <BakerySpecialMoments />
@@ -49,4 +49,7 @@ export default {
 @use './assets/styles/style.scss' as *;
 @use './assets/styles/partials/_variables.scss' as *;
 @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
+
+
+
 </style>
