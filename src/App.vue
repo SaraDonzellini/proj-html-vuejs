@@ -1,29 +1,52 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import BakeryDelivery from './components/footer/BakeryDelivery.vue';
+import BakeryFooter from './components/footer/BakeryFooter.vue';
+import BakeryHeaderVue from './components/header/BakeryHeader.vue'
+import BakeryBlocks from './components/main/BakeryBlocks.vue';
+import BakeryForYou from './components/main/BakeryForYou.vue';
+import BakeryOurBakeries from './components/main/BakeryOurBakeries.vue';
+import BakeryProducts from './components/main/BakeryProducts.vue';
+import BakerySpecialMoments from './components/main/BakerySpecialMoments.vue';
+import BakeryStayTouch from './components/main/BakeryStayTouch.vue';
+
+export default {
+  name: 'AppVue',
+  components: {
+    BakeryHeaderVue,
+    BakeryProducts,
+    BakerySpecialMoments,
+    BakeryForYou,
+    BakeryBlocks,
+    BakeryOurBakeries,
+    BakeryStayTouch,
+    BakeryDelivery,
+    BakeryFooter
+  }
+
+}
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <header>
+    <BakeryHeaderVue />
+  </header>
+  <main>
+    <BakeryProducts />
+    <BakerySpecialMoments />
+    <BakeryForYou />
+    <BakeryBlocks />
+
+  </main>
+  <footer>
+    <BakeryOurBakeries />
+    <BakeryStayTouch />
+    <BakeryDelivery />
+    <BakeryFooter />
+  </footer>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+<style lang="scss">
+@use './assets/styles/style.scss' as *;
+@use './assets/styles/partials/_variables.scss' as *;
+@use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
 </style>
