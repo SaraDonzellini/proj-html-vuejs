@@ -23,6 +23,15 @@ export default {
         <div class="col-3">
           <div class="my_container">
             <img src="../../assets/imgs/choco-chip-cookies-500x638.jpg" alt="choco chip cookies">
+            <div class="my_hover none">
+              <h2>
+                Choco Chip Cookies
+              </h2>
+              <h6>
+                Cookies, Pastries
+              </h6>
+              <h4>&dollar;19.00 &dollar;39.00</h4>
+            </div>
             <div class="scroll">
               <p class="mt-4">&lt</p>
             </div>
@@ -31,6 +40,15 @@ export default {
         <div class="col-3">
           <div class="my_container">
             <img src="../../assets/imgs/strawberry-jam-cookies-500x638.jpg" alt="strawberry jam cookies">
+            <div class="my_hover none">
+              <h2>
+                Strawberry Jam Cookies
+              </h2>
+              <h6>
+                Cookies, Pastries
+              </h6>
+              <h4>&dollar;24.00 &dollar;62.00</h4>
+            </div>
             <div class="my_scroll">
               <p class="mt-4"> ></p>
             </div>
@@ -56,6 +74,10 @@ h2 {
   color: $daisy-bush;
 }
 
+h4 {
+  font-family: 'Work Sans', sans-serif;
+}
+
 .flex {
   display: flex;
   justify-content: space-evenly;
@@ -68,6 +90,14 @@ h2 {
 .my_container {
   margin-top: 8rem;
   position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  &:hover .none {
+    display: block;
+  }
 }
 
 .scroll {
@@ -77,7 +107,8 @@ h2 {
   position: absolute;
   bottom: 45%;
   color: white;
-  p{
+
+  p {
     margin-left: 0.5rem;
   }
 }
@@ -88,11 +119,33 @@ h2 {
   background-color: $lavanda;
   position: absolute;
   bottom: 45%;
-  right: -22%;
+  right: 0%;
   color: white;
-  p{
+
+  p {
     margin-left: 0.5rem;
   }
+}
+
+.my_hover {
+  color: white;
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  background-color: rgba(0, 0, 0, 0.133);
+
+  h2 {
+    margin-top: 15rem;
+    color: white;
+  }
+}
+
+.none{
+  display: none;
+
+
 }
 
 .my_button {

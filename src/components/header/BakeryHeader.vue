@@ -16,7 +16,7 @@ export default {
             </div>
             <nav>
               <ul class="flex">
-                <li>HOME</li>
+                <li class="active">HOME</li>
                 <li>SHOP</li>
                 <li>ABOUT</li>
                 <li>GALLERY</li>
@@ -75,6 +75,10 @@ export default {
 
     li {
       margin: 1rem;
+
+      &:hover{
+        border-bottom: 1px solid $daisy-bush;
+      }
     }
   }
 
@@ -103,6 +107,10 @@ export default {
   {
     margin-top: 12rem;
     margin-left: 6rem;
+  }
+
+  .active{
+    border-bottom: 1px solid $daisy-bush;
   }
 
   .my_button{

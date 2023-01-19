@@ -31,6 +31,11 @@ export default {
             <h5>
               &dollar;19.00 - &dollar;39.00
             </h5>
+            <div class="my_hover none">
+              <h6>
+                SELECT OPTIONS / QUICK VIEW
+              </h6>
+            </div>
           </div>
         </div>
         <div class="col-2">
@@ -42,6 +47,11 @@ export default {
             <h5>
               &dollar;24.00 - &dollar;62.00
             </h5>
+            <div class="my_hover none">
+              <h6>
+                SELECT OPTIONS / QUICK VIEW
+              </h6>
+            </div>
           </div>
         </div>
         <div class="col-2">
@@ -53,6 +63,11 @@ export default {
             <h5>
               &dollar;24.00 - &dollar;42.00
             </h5>
+            <div class="my_hover none">
+              <h6>
+                SELECT OPTIONS / QUICK VIEW
+              </h6>
+            </div>
           </div>
         </div>
         <div class="col-2">
@@ -67,6 +82,11 @@ export default {
             <h5>
               &dollar;18.00 - &dollar;52.00
             </h5>
+            <div class="my_hover none">
+              <h6>
+                SELECT OPTIONS / QUICK VIEW
+              </h6>
+            </div>
           </div>
         </div>
       </div>
@@ -85,6 +105,8 @@ h2,
 h3 {
   font-weight: bold;
   color: $daisy-bush;
+  font-family: 'Source Serif Pro', serif;
+
 }
 
 h5 {
@@ -118,6 +140,11 @@ p {
   width: 15vw;
   text-align: center;
   position: relative;
+  height: 100%;
+
+  &:hover .none{
+    display: block;
+  }
 
   img {
     width: 100%;
@@ -149,7 +176,19 @@ p {
     margin-left: 0.5rem;
   }
 }
-
+.my_hover{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  color: white;
+  height: 58%;
+  width: 100%;
+  padding-top: 60%;
+  background-color: rgba(0, 0, 0, 0.133);
+}
+.none{
+  display: none;
+}
 .my_button {
   font-size: 0.9rem;
   background-color: $daisy-bush;
