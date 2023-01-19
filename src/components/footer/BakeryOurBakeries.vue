@@ -46,7 +46,7 @@ export default {
                 <p>9:00 AM - 6:00 PM</p>
               </div>
               <div class="map">
-                <a class="btn my_button" href="#">Show Map</a>
+                <a class="btn my_button" href="#">View Map</a>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default {
                 <p>9:00 AM - 6:00 PM</p>
               </div>
               <div class="map">
-                <a class="btn my_button" href="#">Show Map</a>
+                <a class="btn my_button" href="#">View Map</a>
               </div>
             </div>
 
@@ -138,6 +138,7 @@ h2 {
 }
 .my_button{
     font-size: 0.9rem;
+    font-weight: bold;
     background-color: $white-color;
     color: $daisy-bush;
 
