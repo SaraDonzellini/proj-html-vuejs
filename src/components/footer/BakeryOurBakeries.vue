@@ -54,7 +54,7 @@ export default {
         <div class="col-6">
           <div class="london-store-contacts">
             <h2 class="pt-5">
-                London
+              London
             </h2>
             <div class="contacts_wrapper flex">
               <div class="call-us">
@@ -92,15 +92,16 @@ h2 {
   color: $daisy-bush;
 }
 
-.flex{
+.flex {
   display: flex;
 }
+
 .wrapper {
   margin-top: 5rem;
   height: 100vh;
   width: 90vw;
   text-align: center;
-  
+
   margin-left: 4rem;
 }
 
@@ -118,37 +119,38 @@ h2 {
 }
 
 .london-store {
-  
+
   // margin-left: 4rem;
   background-image: url('../../assets/imgs/london-bk-800x530.jpg');
   background-size: cover;
 
 }
 
-.newyork-store-contacts{
+.newyork-store-contacts {
   background-color: $new-york;
   width: 45vw;
   height: 25vh;
 }
 
-.london-store-contacts{
+.london-store-contacts {
   background-color: $london;
   width: 45vw;
   height: 25vh;
 }
-.my_button{
-    font-size: 0.9rem;
-    font-weight: bold;
-    background-color: $white-color;
-    color: $daisy-bush;
 
-    &:hover {
-      background-color: $daisy-bush;
-      color: $white-color;
-    }
+.my_button {
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: $white-color;
+  color: $daisy-bush;
+
+  &:hover {
+    background-color: $daisy-bush;
+    color: $white-color;
   }
+}
 
-.contacts_wrapper{
+.contacts_wrapper {
   margin-top: 2rem;
   justify-content: space-evenly;
 }

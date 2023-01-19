@@ -95,6 +95,7 @@ h4 {
     width: 100%;
     height: 100%;
   }
+
   &:hover .none {
     display: block;
   }
@@ -142,7 +143,7 @@ h4 {
   }
 }
 
-.none{
+.none {
   display: none;
 
 

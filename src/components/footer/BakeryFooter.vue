@@ -43,12 +43,14 @@ export default {
       <div class="row flex">
         <div class="col-6">
           <div class="copyright">
-            <p>&copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+            <p>&copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
+            </p>
           </div>
         </div>
         <div class="col-6">
           <div class="socials">
-            <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-pinterest-p"></i>
           </div>
         </div>
       </div>
@@ -61,79 +63,90 @@ export default {
 @use '../../assets/styles/partials/_variables.scss' as *;
 @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
 
-h2{
+h2 {
   color: $daisy-bush;
   font-weight: bold;
   font-size: x-large;
   margin-bottom: 2rem;
 }
-p{
+
+p {
   margin: 5rem;
   color: $daisy-bush;
   font-size: 0.8rem;
 }
-.socials{
+
+.socials {
   margin: 5rem;
   margin-left: 35rem;
   color: $daisy-bush;
-  i{
+
+  i {
     padding-left: 3rem;
   }
 }
-.flex{
+
+.flex {
   display: flex;
   justify-content: space-between;
 }
-.wrapper{
+
+.wrapper {
   height: 50vh;
 }
-.navbar{
+
+.navbar {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.shopping-cart-num{
-background-color: #eeeaf3;
-border-radius: 50%;
+
+.shopping-cart-num {
+  background-color: #eeeaf3;
+  border-radius: 50%;
 
 }
-.contacts{
+
+.contacts {
   margin: 5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.logo{
+
+.logo {
   margin: 3rem;
 }
 
-ul{
+ul {
   margin-top: 2rem;
   list-style-type: none;
   font-family: 'Work Sans', sans-serif;
   color: $daisy-bush;
 
-  li{
+  li {
     margin-left: 3rem;
   }
 }
-input{
+
+input {
   border-radius: 3px;
   border: 1px solid #ececed;
   padding: 0.8rem 1rem;
   margin-right: 2rem;
   width: 500px;
 }
-.my_button{
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.8rem 1rem;
-    background-color: $daisy-bush;
-    color: $white-color;
-    &:hover{
-      background-color: $white-accent;
-      color: $daisy-bush;
-    }
-  }
 
+.my_button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1rem;
+  background-color: $daisy-bush;
+  color: $white-color;
+
+  &:hover {
+    background-color: $white-accent;
+    color: $daisy-bush;
+  }
+}
 </style>

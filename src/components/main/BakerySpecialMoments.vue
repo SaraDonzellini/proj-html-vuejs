@@ -90,7 +90,8 @@ h2 {
     width: 100%;
   }
 }
-.text{
+
+.text {
   position: absolute;
   text-align: center;
   color: white;
@@ -98,17 +99,18 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.none{
-  display:none;
+
+.none {
+  display: none;
   z-index: 1;
 }
 
-.box:hover .none{
+.box:hover .none {
   display: inline;
 
 }
 
-.box:hover .vanish{
+.box:hover .vanish {
   display: none;
 }
 

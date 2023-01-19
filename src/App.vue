@@ -28,7 +28,7 @@ export default {
 
 <template>
 
-    <BakeryHeaderVue />
+  <BakeryHeaderVue />
 
   <main>
     <BakeryProducts />
@@ -49,7 +49,4 @@ export default {
 @use './assets/styles/style.scss' as *;
 @use './assets/styles/partials/_variables.scss' as *;
 @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
-
-
-
 </style>

@@ -142,7 +142,7 @@ p {
   position: relative;
   height: 100%;
 
-  &:hover .none{
+  &:hover .none {
     display: block;
   }
 
@@ -159,7 +159,8 @@ p {
   position: absolute;
   bottom: 25%;
   color: white;
-  p{
+
+  p {
     margin-left: 0.5rem;
   }
 }
@@ -172,11 +173,13 @@ p {
   bottom: 25%;
   right: 0;
   color: white;
-  p{
+
+  p {
     margin-left: 0.5rem;
   }
 }
-.my_hover{
+
+.my_hover {
   position: absolute;
   top: 25%;
   left: 0;
@@ -186,9 +189,11 @@ p {
   padding-top: 60%;
   background-color: rgba(0, 0, 0, 0.133);
 }
-.none{
+
+.none {
   display: none;
 }
+
 .my_button {
   font-size: 0.9rem;
   background-color: $daisy-bush;

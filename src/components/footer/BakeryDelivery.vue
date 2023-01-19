@@ -22,7 +22,7 @@ export default {
         </div>
       </div>
     </div>
-    
+
   </div>
 </template>
 
@@ -44,29 +44,30 @@ h2 {
   color: $white-color;
 }
 
-.my_button{
-    margin-top: 4rem;
-    font-size: 1rem;
-    padding: 1rem;
-    width: 200px;
-    background-color: $white-color;
-    color: $daisy-bush;
+.my_button {
+  margin-top: 4rem;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 200px;
+  background-color: $white-color;
+  color: $daisy-bush;
 
-    &:hover {
-      background-color: $daisy-bush;
-      color: $white-color;
-    }
+  &:hover {
+    background-color: $daisy-bush;
+    color: $white-color;
   }
+}
 
-  .wrapper {
-    background-image: url('../../assets/imgs/call-to-action-bg.jpg');
-    background-size: cover;
-    height: 50vh;
-  }
-.title-container{
+.wrapper {
+  background-image: url('../../assets/imgs/call-to-action-bg.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+
+.title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 </style>

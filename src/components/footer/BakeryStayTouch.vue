@@ -19,7 +19,7 @@ export default {
             <h2>
               Let's stay in touch
             </h2>
-            <a class="btn mt-5 my_button" href="#"><i class="fa-brands fa-instagram"></i> Follow  us</a>
+            <a class="btn mt-5 my_button" href="#"><i class="fa-brands fa-instagram"></i> Follow us</a>
           </div>
         </div>
         <div class="col-3">
@@ -63,25 +63,25 @@ h2 {
   color: $daisy-bush;
 }
 
-.wrapper{
+.wrapper {
   height: 100vh;
   width: 90%;
   text-align: center;
   margin: auto;
 }
 
-.stay-in-touch{
+.stay-in-touch {
   width: 830px;
   height: 450px;
   background-color: #f8f1f3;
 }
+
 .cook,
 .croissant,
 .bread,
 .pankakes,
 .bread-chest,
-.cake
-{
+.cake {
   width: 400px;
   height: 450px;
   margin-bottom: 2rem;
@@ -101,24 +101,24 @@ h2 {
   background-image: url('../../assets/imgs/social-5.jpg');
 }
 
-.bread-chest{
+.bread-chest {
   background-image: url('../../assets/imgs/social-4.jpg');
 }
 
-.cake{
+.cake {
   background-image: url('../../assets/imgs/social-6.jpg');
 }
 
-.my_button{
-    font-size: 0.9rem;
-    font-weight: bold;
-    padding: 0.8rem 1rem;
-    background-color: $daisy-bush;
-    color: $white-color;
-    &:hover{
-      background-color: $white-accent;
-      color: $daisy-bush;
-    }
-  }
+.my_button {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.8rem 1rem;
+  background-color: $daisy-bush;
+  color: $white-color;
 
+  &:hover {
+    background-color: $white-accent;
+    color: $daisy-bush;
+  }
+}
 </style>
