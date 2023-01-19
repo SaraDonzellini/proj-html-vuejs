@@ -40,7 +40,7 @@ export default {
     </section>
 
     <section class="container-fluid">
-      <div class="row flex my_center">
+      <div class="row flex space-evenly">
         <div class="col-5">
           <div class="block-left tell-us">
             <div class="gradient">
@@ -68,19 +68,20 @@ export default {
               </div>
             </div>
 
-            </div>
-          <div class="col-5">
-            <div class="block-right">
-              <h6>
-                DONT JUST TAKE OUR WORD FOR IT
-              </h6>
-              <h2>
-                "Finally found an alternative to the mass produced products. Something that incorporatesreal organic ingredients, nutrient dense wellness while promoting sustainability and activity."
-              </h2>
-              <h5>
-                Rachel Cooper, Founder
-              </h5>
-            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="block-right">
+            <h6 class="text-block">
+              DONT JUST TAKE OUR WORD FOR IT
+            </h6>
+            <h3>
+              "Finally found an alternative to the mass produced products. Something that incorporatesreal organic
+              ingredients, nutrient dense wellness while promoting sustainability and activity."
+            </h3>
+            <h5>
+              Rachel Cooper, Founder
+            </h5>
           </div>
         </div>
       </div>
@@ -147,9 +148,23 @@ h2 {
   text-align: end;
 }
 
+h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: $daisy-bush;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
 h6 {
   margin-top: 20rem;
   font-size: small;
+}
+
+h6.text-block {
+  margin-top: 1rem;
 }
 
 p {
@@ -164,11 +179,13 @@ p {
 .flex {
   display: flex;
 }
+
 .space-between {
   justify-content: space-between;
 }
-.my_center {
-  justify-content: center;
+
+.space-evenly {
+  justify-content: space-around;
 }
 
 .flex-column {
@@ -191,23 +208,28 @@ p {
   }
 
 }
-.block-left{
+
+.block-left {
   margin-top: 4rem;
-  width: 45vw;
-  height: 45vw;
+  width: 40vw;
+  height: 40vw;
   background-image: url('../../assets/imgs/bakery-process-2.jpg');
+
   .gradient {
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
   }
 }
-.block-right{
+
+.block-right {
+  padding: 5rem;
   margin-top: 4rem;
-  width: 45vw;
-  height: 45vw;
+  width: 40vw;
+  height: 40vw;
   background-color: $white-accent;
 }
+
 .to-you {
   margin-top: 4rem;
   background-image: url('../../assets/imgs/bakery-process-3.jpg');
