@@ -55,7 +55,7 @@ export default {
                     </h6>
                     <p class="delivered">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae similique dolorum ab
-                      laborum repudiandae ut cupiditate animi.
+                      laborum.
                     </p>
                   </div>
                   <div class="col-3">
@@ -75,7 +75,7 @@ export default {
               DONT JUST TAKE OUR WORD FOR IT
             </h6>
             <h3>
-              "Finally found an alternative to the mass produced products. Something that incorporatesreal organic
+              "Finally found an alternative to the mass produced products. Something that incorporates real organic
               ingredients, nutrient dense wellness while promoting sustainability and activity."
             </h3>
             <h5>
@@ -133,7 +133,7 @@ export default {
 
 h1,
 h2 {
-  margin: 5rem;
+  margin: 3rem;
 }
 
 h1 {
@@ -145,12 +145,14 @@ h2 {
   font-weight: 400;
   font-size: 5rem;
   text-align: end;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h3 {
   font-weight: bold;
   font-size: 3rem;
   color: $daisy-bush;
+  font-family: 'Source Serif Pro', serif;
 }
 
 h5 {
@@ -224,7 +226,7 @@ p {
 }
 
 .block-right {
-  padding: 5rem;
+  padding: 4rem;
   margin-top: 4rem;
   width: 40vw;
   height: 40vw;

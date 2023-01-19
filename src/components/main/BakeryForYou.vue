@@ -83,6 +83,7 @@ h3 {
 
 h5 {
   color: $daisy-bush;
+  font-family: 'Work Sans', sans-serif;
 }
 
 p {
