@@ -32,7 +32,7 @@ export default {
         </div>
         <div class="col-2">
           <div class="my_container">
-            <img src="../../assets/imgs/choco-chip-cookies-400x510.jpg" alt="strawberry jam cookies">
+            <img src="../../assets/imgs/strawberry-jam-cookies-400x510.jpg" alt="strawberry jam cookies">
             <h3>
               Strawberry Jam Cookies
             </h3>
@@ -43,7 +43,7 @@ export default {
         </div>
         <div class="col-2">
           <div class="my_container">
-            <img src="../../assets/imgs/choco-chip-cookies-400x510.jpg" alt="strawberry donut">
+            <img src="../../assets/imgs/strawberry-donut-400x510.jpg" alt="strawberry donut">
             <h3>
               Strawberry Donut
             </h3>
@@ -54,7 +54,7 @@ export default {
         </div>
         <div class="col-2">
           <div class="my_container">
-            <img src="../../assets/imgs/choco-chip-cookies-400x510.jpg" alt="perfect macarons">
+            <img src="../../assets/imgs/perfect-macarons-400x510.jpg" alt="perfect macarons">
             <h3>
               Perfect Macarons
             </h3>
