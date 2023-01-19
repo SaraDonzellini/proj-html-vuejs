@@ -22,6 +22,9 @@ export default {
         <div class="col-2">
           <div class="my_container">
             <img src="../../assets/imgs/choco-chip-cookies-400x510.jpg" alt="choco chip cookies">
+            <div class="my_scroll">
+              <p class="mt-4"> &lt</p>
+            </div>
             <h3>
               Choco Chip Cookies
             </h3>
@@ -55,6 +58,9 @@ export default {
         <div class="col-2">
           <div class="my_container">
             <img src="../../assets/imgs/perfect-macarons-400x510.jpg" alt="perfect macarons">
+            <div class="scroll">
+              <p class="mt-4"> > </p>
+            </div>
             <h3>
               Perfect Macarons
             </h3>
@@ -111,10 +117,36 @@ p {
 .my_container {
   width: 15vw;
   text-align: center;
+  position: relative;
 
   img {
     width: 100%;
     margin-top: 10rem;
+  }
+}
+
+.my_scroll {
+  height: 5rem;
+  width: 2rem;
+  background-color: $lavanda;
+  position: absolute;
+  bottom: 25%;
+  color: white;
+  p{
+    margin-left: 0.5rem;
+  }
+}
+
+.scroll {
+  height: 5rem;
+  width: 2rem;
+  background-color: $lavanda;
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+  color: white;
+  p{
+    margin-left: 0.5rem;
   }
 }
 
