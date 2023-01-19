@@ -55,8 +55,7 @@ export default {
                     </h6>
                     <p class="delivered">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae similique dolorum ab
-                      laborum repudiandae ut cupiditate animi numquam magni incidunt eligendi nostrum iste dolor velit
-                      repellendus, praesentium laudantium error.
+                      laborum repudiandae ut cupiditate animi.
                     </p>
                   </div>
                   <div class="col-3">
@@ -214,6 +213,8 @@ p {
   width: 40vw;
   height: 40vw;
   background-image: url('../../assets/imgs/bakery-process-2.jpg');
+  background-size: cover;
+
 
   .gradient {
     width: 100%;
@@ -233,5 +234,7 @@ p {
 .to-you {
   margin-top: 4rem;
   background-image: url('../../assets/imgs/bakery-process-3.jpg');
+  background-size: cover;
+
 }
 </style>
