@@ -25,15 +25,25 @@ export default {
       <div class="row flex">
         <div class="col-6">
           <div class="box">
-            <img src="../../assets/imgs/corporate-bg.jpg" alt="">
-            <img src="../../assets/imgs/corporate-hover-bg.jpg" alt="" class="d-none">
+            <img src="../../assets/imgs/corporate-bg.jpg" alt="" class="vanish">
+            <img src="../../assets/imgs/corporate-hover-bg.jpg" alt="" class="none">
+            <div class="text none">
+              <h6>INTERNATIONAL BAKERY</h6>
+              <h1>Corporate Events</h1>
+              <a class="btn mt-5 my_button" href="#">Explore More</a>
+            </div>
+
           </div>
         </div>
         <div class="col-6">
           <div class="box">
-            <img src="../../assets/imgs/wedding-bg.jpg" alt="">
-            <img src="../../assets/imgs/wedding-hover-bg.jpg" alt="" class="d-none">
-
+            <img src="../../assets/imgs/wedding-bg.jpg" alt="" class="vanish">
+            <img src="../../assets/imgs/wedding-hover-bg.jpg" alt="" class="none">
+            <div class="text none">
+              <h6>PRIVATE DINING HALL</h6>
+              <h1>Weddings & Parties</h1>
+              <a class="btn mt-5 my_button" href="#">Explore More</a>
+            </div>
           </div>
 
         </div>
@@ -74,9 +84,42 @@ h2 {
 .box {
   width: 45vw;
   margin: auto;
+  position: relative;
 
   img {
     width: 100%;
+  }
+}
+.text{
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.none{
+  display:none;
+  z-index: 1;
+}
+
+.box:hover .none{
+  display: inline;
+
+}
+
+.box:hover .vanish{
+  display: none;
+}
+
+.my_button {
+  font-size: 0.9rem;
+  background-color: $daisy-bush;
+  color: $white-color;
+
+  &:hover {
+    background-color: $white-accent;
+    color: $daisy-bush;
   }
 }
 </style>
