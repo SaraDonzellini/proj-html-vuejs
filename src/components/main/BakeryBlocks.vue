@@ -205,7 +205,7 @@ p {
   .gradient {
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
+    background: linear-gradient(0deg, rgba(53, 0, 99, 0.7) 0%, rgba(0, 0, 0, 0.50) 100%);
   }
 
 }

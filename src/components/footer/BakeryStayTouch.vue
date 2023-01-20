@@ -34,7 +34,7 @@ export default {
           <div class="pankakes"></div>
         </div>
         <div class="col-3">
-          <div class="bread-chest"></div>
+          <div class="bread-basket"></div>
         </div>
         <div class="col-3">
           <div class="cake"></div>
@@ -80,7 +80,7 @@ h2 {
 .croissant,
 .bread,
 .pankakes,
-.bread-chest,
+.bread-basket,
 .cake {
   width: 400px;
   height: 450px;
@@ -104,7 +104,7 @@ h2 {
   background-image: url('../../assets/imgs/social-5.jpg');
 }
 
-.bread-chest {
+.bread-basket {
   background-image: url('../../assets/imgs/social-4.jpg');
 }
 
