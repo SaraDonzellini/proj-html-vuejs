@@ -23,7 +23,7 @@ export default {
                 <li>LOCATIONS</li>
                 <li>JOURNAL</li>
                 <li>CONTACT</li>
-                <li>MYACCOUNT</li>
+                <li>MY ACCOUNT</li>
                 <li><i class="fa-solid fa-cart-shopping"></i></li>
               </ul>
             </nav>
@@ -118,6 +118,8 @@ p {
   font-size: 0.9rem;
   background-color: $white-color;
   color: $daisy-bush;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
 
   &:hover {
     background-color: $daisy-bush;

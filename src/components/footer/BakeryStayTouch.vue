@@ -115,6 +115,8 @@ h2 {
   padding: 0.8rem 1rem;
   background-color: $daisy-bush;
   color: $white-color;
+  font-family: 'Work Sans', sans-serif;
+
 
   &:hover {
     background-color: $white-accent;

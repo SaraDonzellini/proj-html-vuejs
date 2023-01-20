@@ -97,12 +97,12 @@ h2 {
 }
 
 .wrapper {
-  margin-top: 5rem;
+  margin-top: 8rem;
   height: 100vh;
   width: 90vw;
   text-align: center;
-
   margin-left: 4rem;
+  margin-bottom: 5rem;
 }
 
 .newyork-store,
@@ -143,6 +143,7 @@ h2 {
   font-weight: bold;
   background-color: $white-color;
   color: $daisy-bush;
+  font-family: 'Work Sans', sans-serif;
 
   &:hover {
     background-color: $daisy-bush;

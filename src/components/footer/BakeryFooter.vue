@@ -104,7 +104,7 @@ p {
 .shopping-cart-num {
   background-color: #eeeaf3;
   border-radius: 50%;
-
+  padding: 0.3rem;
 }
 
 .contacts {
@@ -143,6 +143,8 @@ input {
   padding: 0.8rem 1rem;
   background-color: $daisy-bush;
   color: $white-color;
+  font-family: 'Work Sans', sans-serif;
+
 
   &:hover {
     background-color: $white-accent;

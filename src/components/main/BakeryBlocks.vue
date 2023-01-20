@@ -216,6 +216,7 @@ p {
   height: 40vw;
   background-image: url('../../assets/imgs/bakery-process-2.jpg');
   background-size: cover;
+  background-position: center;
 
 
   .gradient {
@@ -226,7 +227,7 @@ p {
 }
 
 .block-right {
-  padding: 4rem;
+  padding: 5rem;
   margin-top: 4rem;
   width: 40vw;
   height: 40vw;
@@ -237,6 +238,7 @@ p {
   margin-top: 4rem;
   background-image: url('../../assets/imgs/bakery-process-3.jpg');
   background-size: cover;
+  // background-position: center;
 
 }
 </style>

@@ -47,10 +47,13 @@ h2 {
 .my_button {
   margin-top: 4rem;
   font-size: 1rem;
+  font-weight: bold;
   padding: 1rem;
   width: 200px;
   background-color: $white-color;
   color: $daisy-bush;
+  font-family: 'Work Sans', sans-serif;
+
 
   &:hover {
     background-color: $daisy-bush;
@@ -62,6 +65,7 @@ h2 {
   background-image: url('../../assets/imgs/call-to-action-bg.jpg');
   background-size: cover;
   height: 50vh;
+  margin-top: 5rem;
 }
 
 .title-container {
