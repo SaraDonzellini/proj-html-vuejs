@@ -143,7 +143,7 @@ h4 {
   height: 100%;
   width: 100%;
   top: 0%;
-  background-color: rgba(0, 0, 0, 0.133);
+  background-color: rgba(35, 6, 59, 0.133);
 
   h2 {
     margin-top: 15rem;

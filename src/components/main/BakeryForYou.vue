@@ -195,7 +195,7 @@ p {
   height: 58%;
   width: 100%;
   padding-top: 60%;
-  background-color: rgba(0, 0, 0, 0.133);
+  background-color: rgba(35, 6, 59, 0.133);
 }
 
 .none {
