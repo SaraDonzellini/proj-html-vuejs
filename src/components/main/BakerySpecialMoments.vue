@@ -85,9 +85,17 @@ h2 {
   width: 45vw;
   margin: auto;
   position: relative;
-
+  
   img {
     width: 100%;
+  }
+  
+  &:hover .none {
+    display: inline;
+  }
+
+  &:hover .vanish {
+    display: none;
   }
 }
 
@@ -105,14 +113,6 @@ h2 {
   z-index: 1;
 }
 
-.box:hover .none {
-  display: inline;
-
-}
-
-.box:hover .vanish {
-  display: none;
-}
 
 .my_button {
   font-size: 0.9rem;

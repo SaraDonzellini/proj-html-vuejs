@@ -109,6 +109,13 @@ h2 {
 .london-store {
   width: 45vw;
   height: 55vh;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    filter: contrast(90%);
+    overflow: hidden;
+    transform: scale(110%);
+
+  }
 }
 
 .newyork-store {
