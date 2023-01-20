@@ -87,6 +87,9 @@ h2 {
   margin-bottom: 2rem;
   background-image: url('../../assets/imgs/social-1.jpg');
   background-size: cover;
+  // &:hover {
+  //   transform: scale(110%);
+  // }
 }
 
 .croissant {

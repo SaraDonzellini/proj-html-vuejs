@@ -160,6 +160,10 @@ p {
   bottom: 25%;
   color: white;
 
+  &:hover{
+    background-color: $daisy-bush;
+  }
+
   p {
     margin-left: 0.5rem;
   }
@@ -173,6 +177,10 @@ p {
   bottom: 25%;
   right: 0;
   color: white;
+
+  &:hover{
+    background-color: $daisy-bush;
+  }
 
   p {
     margin-left: 0.5rem;

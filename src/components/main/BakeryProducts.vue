@@ -109,6 +109,10 @@ h4 {
   bottom: 45%;
   color: white;
 
+  &:hover{
+    background-color: $daisy-bush;
+  }
+
   p {
     margin-left: 0.5rem;
   }
@@ -122,6 +126,10 @@ h4 {
   bottom: 45%;
   right: 0%;
   color: white;
+
+  &:hover{
+    background-color: $daisy-bush;
+  }
 
   p {
     margin-left: 0.5rem;
